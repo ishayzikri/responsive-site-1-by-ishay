@@ -1,0 +1,304 @@
+
+.head {
+    color: grey;
+}
+
+#blue {
+    color: white;
+    background-color: rgba(66, 185, 253, 255);
+}
+
+.phononly{
+  display: none;
+}
+
+.line{
+    display: none;
+}
+
+#butt {
+  background-color: orange;
+  border: none;
+  color: white;
+  width: 90%;
+  padding: 5%;
+  font-size: xx-large;
+}
+
+input{
+  width: 90%;
+  padding:3%;
+  margin: 4%;
+  border: none; 
+}
+.grey{
+    color:grey;
+    margin: 4%;
+}
+
+.CEO {
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.3);
+
+}
+
+.foot {
+text-align: center;
+}
+
+#rcorners {
+    border-radius: 80px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 150px;
+    height: 150px;  
+  }
+
+@media only screen and (min-width: 900px) {
+  /* desktop: */
+  #blue{
+display: flex;
+}
+
+.b11{
+    width: 50%;
+    margin: 6% 4% 0% 4%;
+}
+
+.desk{
+    display: contents;  
+}
+.call{
+    display: none;
+}
+
+.phon{
+    display: none;
+}
+.phononly{
+    display: none;
+}
+
+.b12 {
+    width: 50%;
+    background-color: rgba(100, 196, 247, 255);
+    padding-left: 2%;
+    margin: 4%;
+    margin-left: 20%;
+}
+
+.b12 h2{
+
+    margin:0% 4%;
+    padding: 4% 0%;
+    
+}
+
+label{
+    font-size: x-large;
+    padding: 0% 4%;
+}
+
+input{
+    width: 80%;
+    padding:3%;
+    margin:0% 4%;
+    border: none; 
+}
+
+#butt{
+    width: 80%;
+    padding: 2%;
+    margin: 0% 4%;
+    border: none; 
+    background-color: orange;
+    color: white;
+    font-size: xx-large;
+
+}  
+
+.b12 p{
+    margin: 0% 0%;
+    padding-bottom: 5%;
+    padding-left: 8%;
+    text-align: left;
+}
+
+.grey{
+    display: flex;
+}
+
+.Advantage{
+    text-align: center;
+    padding:0% 5% 0% 5%;
+    width: 33.3%;
+}
+
+.Special{
+    text-align: center;
+    padding:0% 5% 0% 5%;
+    width: 33.3%;
+}
+
+.About{
+    text-align: center;
+    padding:0% 4% 0% 8%;
+    width: 33.3%;
+}
+
+.CEO p{
+    text-align: center;
+    padding:0% 30%;
+    color: rgb(32, 32, 32);
+}
+
+}
+
+@media (max-width: 899px) {
+    /* for tablets */
+ body{
+    /* background-color: rgba(66, 185, 253, 255); */
+    color:white;
+}
+
+#blue {
+    padding: 10%;
+    background-color: rgba(66, 185, 253, 255) ;
+}
+
+.haed {
+    background-color: white;
+
+}
+
+ #first {
+    text-align: center;
+}
+
+.b11{
+    background-color: rgba(66, 185, 253, 255);
+    width: 100% ! important;
+    display: block;
+}
+
+.center {
+    text-align: center;
+}
+
+.phononly{
+    display: none;
+}
+
+.b12{
+    background-color: rgba(100, 196, 247, 255);
+}
+
+.b12 h2 {
+    margin:0% 4%;
+    padding: 4% 0%;
+}
+
+.b12 p{
+    margin: 0% 4%;
+    padding-bottom: 5%;
+    font-size: small;
+}
+
+label{
+    margin:0% 4%;
+    font-size: large;
+}
+
+input{
+    width: 90%;
+    padding:3%;
+    margin:0% 4%;
+    border: none; 
+}
+
+#butt{
+    width: 90%;
+    padding:5%;
+    margin: 0% 4%;
+    border: none; 
+
+}  
+
+.grey{
+    color:grey;
+    padding:8S%;
+}
+
+.Advantage{
+      width: 100%;
+      margin: 0%;
+      padding:0%;
+      background-color: white;
+      text-align: left;
+}
+
+.Special{
+      width: 100%;
+      text-align: left;
+      margin: 0%;
+      background-color: white;
+ 
+}
+
+.About{
+      width: 100%;
+      text-align: left;
+      margin: 0%;
+      background-color: white;
+ 
+}
+
+.CEO{
+    width:100%;
+    text-align: center;
+    color:black;
+    background-color: rgba(211, 211, 211, 0.3);
+    padding: 0% 4%;
+}
+
+.foot{
+    text-align: center;
+    color:black;
+    background-color: white;
+
+}
+
+
+}
+
+@media (max-width: 480px) {
+    /* for mobile */
+
+.desk{
+    display: none;
+}
+.call {
+    background-color: orange;
+    border: none;
+    color: white;
+    width: 90%;
+    padding: 5%;
+    font-size: xx-large;
+}
+.line{
+    display: contents;
+    width: 90%;
+}
+
+.phononly{
+    background-color: rgba(66, 185, 253, 255);
+    font:x-large 900;
+    display: flow-root;
+    width: 100%;
+    text-align: center !important;
+    color:whitesmoke;
+}
+
+}
